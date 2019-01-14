@@ -1,12 +1,12 @@
-#Link to Bitlinks with UTM
+# Link to Bitlinks with UTM
 
 Web service for automatic processing of URLs and generating bitlinks.
 
-##The bottom line
+## The bottom line
 There is an Internet project: a website and 3 resources in social networks.
 The project team needs to post links to pages in social networks.
 
-##Problems
+## Problems
 1. Source links are **very long** - 100-130 characters, they need to be shorten using a third-party service https://bitly.com/, using the project profile.
 
 2. For web analytics purposes, the original links should be changed by adding the necessary **UTM tags** (then it will be possible to determine from which social network the user made the transition).
@@ -18,7 +18,7 @@ As a result, for one page of the site you need to create and simplify **3 differ
 
 As a result, the processing of links for **one page takes ~ 10 minutes**.
 
-##Example:
+## Example:
 Original link: https://subdomain.domain.ru/category/page-name-some-id?from=somewhere
 
 It is necessary to remove "from = somewhere": https://subdomain.domain.ru/category/page-name-some-id?
@@ -34,5 +34,5 @@ Shorting 3 different links using https://bitly.com/, using the project profile:
 * http://bit.ly/2QgjM8y
 
 
-##Running a web service for testing
+## Running a web service for testing
 http://35.156.199.247/bitlinks
