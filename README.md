@@ -28,7 +28,7 @@ Create 3 links for social networks with the necessary UTM tags:
 * https://subdomain.domain.ru/category/page-name-some-id?utm_source=vk&utm_medium=social&utm_campaign=our-public
 * https://subdomain.domain.ru/category/page-name-some-id?utm_source=instagram&utm_medium=social&utm_campaign=our-profile
 
-Shorting 3 different links using https://bitly.com/, using the project profile:
+Shorting 3 different links using https://bitly.com/, using the project account:
 * http://bit.ly/2QgHMIE
 * http://bit.ly/2Vl9gAB
 * http://bit.ly/2QgjM8y
