@@ -36,3 +36,6 @@ Shorting 3 different links using [Bitly](https://bitly.com/), using the project 
 
 ## Running a web service for testing
 http://35.156.199.247/bitlinks
+For testing, you can use documents **starting with https://yandex.ru**. 
+For example, https://yandex.ru/ or https://yandex.ru/company/
+Only correct documents (SATUS_CODE == **200 OK**; **NOT** https://site.ru/123456) are allowed.
