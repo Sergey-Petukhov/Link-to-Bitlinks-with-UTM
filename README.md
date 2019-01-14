@@ -1,6 +1,6 @@
 # [Link to Bitlinks with UTM](http://35.156.199.247/bitlinks)
 
-Web service for automatic processing of URLs and generating bitlinks.
+[Web service](http://35.156.199.247/bitlinks) for automatic processing of URLs and generating bitlinks.
 
 ## The bottom line
 There is an Internet project: a website and 3 resources in social networks.
