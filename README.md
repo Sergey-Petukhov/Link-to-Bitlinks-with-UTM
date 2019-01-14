@@ -14,7 +14,7 @@ As a result, for one page of the site you need to create and simplify **3 differ
 
 3. 95% of the original links contain **other tags that require removal**.
 
-4. A large team performs similar actions from a smartphone (**NOT** a hi-end model **with small display**) with a **poor Internet connection** and sometimes **disabled JavaScript** (https://bitly.com/ **does not work**).
+4. A large team performs similar actions from a smartphone (NOT a hi-end model **with small display**) with a **poor Internet connection** and sometimes **disabled JavaScript** (https://bitly.com/ **does not work**).
 
 As a result, the processing of links for **one page takes ~10 minutes**.
 
