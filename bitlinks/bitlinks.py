@@ -675,16 +675,16 @@ def ajax():
         })
 
     #If the URL is correct, clear it of unnecessary tags
-    elif '?from=' in url or '&from=' in url:
+    elif '?from=' in url or '&from=' in url or '&amp;from=' in url:
         clean_url = url[:url.find('from=')]
 
     elif '?' not in url:
         clean_url = url + '?'
 
-    elif '?utm_' in url or '&utm_' in url:
+    elif '?utm_' in url or '&utm_' in url or '&amp;utm_' in url:
         clean_url = url[:url.find('utm_')]
 
-    elif '?_openstat=' in url or '&_openstat=' in url:
+    elif '?_openstat=' in url or '&_openstat=' in url or '&amp;_openstat=' in url:
         clean_url = url[:url.find('_openstat=')]
 
     else:
@@ -915,16 +915,16 @@ def nojs():
 
         return resp
 
-    elif '?from=' in url or '&from=' in url:
+    elif '?from=' in url or '&from=' in url or '&amp;from=' in url:
         clean_url = url[:url.find('from=')]
 
     elif '?' not in url:
         clean_url = url + '?'
 
-    elif '?utm_' in url or '&utm_' in url:
+    elif '?utm_' in url or '&utm_' in url or '&amp;utm_' in url:
         clean_url = url[:url.find('utm_')]
 
-    elif '?_openstat=' in url or '&_openstat=' in url:
+    elif '?_openstat=' in url or '&_openstat=' in url or '&amp;_openstat=' in url:
         clean_url = url[:url.find('_openstat=')]
 
     else:
