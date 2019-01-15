@@ -59,7 +59,7 @@ def home():
     <meta name="description" content="Web service for automatic processing of URLs and generating bitlinks.">
     <link rel="icon" type="image/png" href="/bitlinks/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style nonce="2726c7f26c">
+    <style>
         html {
             height: 100%;
             background: #092756
@@ -253,7 +253,7 @@ def bitlinks():
     <meta name="description" content="Web service for automatic processing of URLs and generating bitlinks.">
     <link rel="icon" type="image/png" href="/bitlinks/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style nonce="2726c7f26c">
+    <style>
         html {
             height: 100%;
             background: #092756
@@ -403,7 +403,7 @@ def bitlinks():
     </div>
     <link rel="stylesheet" type="text/css" href="/bitlinks/styles.css">
     <script src="/bitlinks/clipboard.min.js"></script>
-    <script nonce="2726c7f26c">
+    <script>
         new ClipboardJS('.btn');
     </script>
 </body>
@@ -422,7 +422,7 @@ def bitlinks():
     <meta name="description" content="Web service for automatic processing of URLs and generating bitlinks.">
     <link rel="icon" type="image/png" href="/bitlinks/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style nonce="2726c7f26c">
+    <style>
         html {
             height: 100%;
             background: #092756
@@ -618,7 +618,7 @@ def bitlinks():
     <link rel="stylesheet" type="text/css" href="/bitlinks/styles.css">
     <script src="/bitlinks/jquery.min.js"></script>
     <script src="/bitlinks/clipboard.min.js"></script>
-    <script nonce="2726c7f26c">
+    <script>
         function get_bitlinks(t) {
             $.post("/bitlinks/ajax", {
                 url: t
@@ -743,7 +743,7 @@ def nojs():
     <meta name="description" content="Web service for automatic processing of URLs and generating bitlinks.">
     <link rel="icon" type="image/png" href="/bitlinks/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style nonce="2726c7f26c">
+    <style>
         html {
             height: 100%;
             background: #092756
@@ -956,7 +956,7 @@ def nojs():
     <meta name="description" content="Web service for automatic processing of URLs and generating bitlinks.">
     <link rel="icon" type="image/png" href="/bitlinks/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style nonce="2726c7f26c">
+    <style>
         html {
             height: 100%;
             background: #092756
